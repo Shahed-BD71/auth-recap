@@ -30,7 +30,7 @@ function App() {
         // The signed-in user info.
         var user = result.user;
         // ...
-        console.log(user)
+        // console.log(user)
         setUser(user);
 
       }).catch((error) => {
@@ -42,7 +42,7 @@ function App() {
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
         // ...
-        console.log(errorMessage, errorCode, email)
+        // console.log(errorMessage, errorCode, email)
       });
   }
 
@@ -71,7 +71,7 @@ function App() {
         var email = error.email;
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
-        console.log(errorCode, errorMessage, email, credential)
+        // console.log(errorCode, errorMessage, email, credential)
         // ...
       });
   }
@@ -100,7 +100,7 @@ function App() {
         var email = error.email;
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
-        console.log(errorCode,errorMessage, email, credential)
+        // console.log(errorCode,errorMessage, email, credential)
         // ...
       });
   }
